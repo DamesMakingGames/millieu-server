@@ -10,19 +10,19 @@ import clamp from "lodash/clamp"
 import isNumber from "lodash/isNumber"
 // import * as Sentry from "@sentry/node"
 import mongoose from "mongoose"
-// import sanity from "@sanity/client"
+import sanity from "@sanity/client"
 
-// const sanityClient = sanity({
-//   projectId: "bu5rnal5",
-//   dataset: "production",
-//   useCdn: false,
-// })
+const sanityClient = sanity({
+  projectId: "ud6cpqfu",
+  dataset: "production",
+  useCdn: false,
+})
 
 // const SSO_SECRET = "nwvSuAVLUE5L"
 const MAX_STACK_HEIGHT = 200
 const MAX_USERNAME_LENGTH = 100
 const MAX_CHATMESSAGE_LENGTH = 1000
-const MONGODB_URI = "mongodb://localhost:27017/details"
+const MONGODB_URI = "mongodb+srv://temp:damagecamptemp@cluster0.bo1zj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
 const rawdata = fs.readFileSync("grid.json")
 const mapMatrix = JSON.parse(rawdata.toString()).data
