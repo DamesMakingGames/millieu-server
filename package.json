@@ -30,7 +30,7 @@
     "@types/uuid": "^8.3.0",
     "colyseus": "^0.14.0",
     "cors": "^2.8.5",
-    "easystarjs": "pwrstudio/easystarjs",
+    "easystarjs": "DamesMakingGames/easystarjs",
     "express": "^4.17.1",
     "express-jwt": "^6.0.0",
     "lodash": "^4.17.20",
